@@ -1,100 +1,133 @@
 <!doctype HTML>
 <html lang="en-us">
+
 <head>
-<meta charset="utf-8">
-<title> Whitewater Rafting Vacations | Dry Oar Boating | Home </title>
-<style>
-	nav
-	{	
-	background-color: #93A537;
-    color: #294F6D;
-	}
-    a
-    {
-      color: #294F6D;  
-    }
-    #section2 
-    {
-        background-color: #93A537;
-    }
-    h1,h2,h3,h4,h5,h6
-    {
-        color: #71266E;
-    }
-    #p2
-    {
-        color: #294F6D;
-    }
-    #content
-    {
-        width: 960px;
-        margin: auto;    
-    }
-    #section3
-    {
-        text-align: center;
-    }
-	
-</style>
+    <meta charset="utf-8">
+    <title> Whitewater Rafting Vacations | Dry Oar Boating | Home </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+        nav {
+            background-color: #93A537;
+            color: #294F6D;
+            font-size: 1.1em;
+        }
+        
+        a {
+            color: #294F6D;
+        }
+        
+        #section1 {}
+        
+        #section2 {
+            background-color: #93A537;
+            padding: 1em;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #71266E;
+            font-family: "Rock Salt", cursive, sans-serif;
+            line-height: .5em;
+            font-size: 1.8em;
+            
+        }
+        
+        #p2 {
+            color: #294F6D;
+        }
+        
+        #content {
+            width: 960px;
+            margin: auto;
+            padding: 1em;
+        }
+        
+        #section3 {
+            text-align: center;
+        }
+        
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #column1 {
+            width:60%;
+        }
+        
+        #column2 {
+            width:65%;
+        }
+    </style>
 </head>
+
 <body>
-<div id = "content">
-<div id = "logo">
-<img src="template.png" alt="logo" height="100" width="115">
-</div>
-<nav>
-	<ul> 
-		<li><a href="index.html">Home</a></li>
-		<li> <a href="index.html">Rivers</a> </li>
-		<li><a href="index.html"> FAQ</a> </li>
-		<li><a href="index.html"> Blog </a></li>
-        <li><a href="index.html"> Rates/Dates</a> </li>
-		<li><a href="index.html"> Contact Us</a> </li>
-	</ul>
-</nav>
-    
-    
-<header id = "headerpic">
-<img src = "http://brothert.net/dryoar/images/river-narrow.jpg" alt = "header image" height ="250" width = "940" >
-</header>
-    
-    
-<section id = "section1">
-	<h1> We run Rivers to relax </h1>
-		<p>
-			We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating.
-			Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.
-		</p>
-	<img src = "http://brothert.net/dryoar/images/salmon-interest.jpg" alt = "paragraph picture" height = "315" width = "420" >
-</section>
+    <div id="content">
 
-    
-<section id = "section2">
-	<img src = "http://brothert.net/dryoar/images/littlecolorado.jpg" alt = "other paragaph picture"  height = "315" width = "420">
-	<h1> We run Whitewater for the Rush </h1>
-		<p id = "p2">				
-			That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when 
-			you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.
-		</p>
-</section>
+        <img src="template.png" alt="logo" height="100" width="115" id="logo">
 
-    
-<section id = "section3">
-<h1> Come with Us  </h1>
-<p>
-We invite you to come relax with us on one of the amazing rivers we visit. 
-Check out our trips and let us know which one best suits you. We're waiting to hear from you!
-</p>
-</section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Rivers</a></li>
+                <li><a href="index.html"> FAQ</a> </li>
+                <li><a href="index.html"> Blog </a></li>
+                <li><a href="index.html"> Rates/Dates</a> </li>
+                <li><a href="index.html"> Contact Us</a> </li>
+            </ul>
+        </nav>
 
-    
-<footer id = "footer1">
-<p>&copy; 2016 Dry Oar || Maggie Klinke </p>
-<a href="https://facebook.com"> <img src = "facebook.png" alt = "facebook"></a>
-    <a href="https://instagram.com"> <img src = "instagram.png" alt = "instagram"></a>
-    <a href="https://www.youtube.com"> <img src = "youtube.png" alt = "youtube"></a>
-</footer>
-    
-</div>  
+
+        <header id="headerpic">
+            <img src="http://brothert.net/dryoar/images/river-narrow.jpg" alt="header image" height="250" width="940">
+        </header>
+
+
+        <section id="section1">
+            <div class="column1">
+                <h1> We run Rivers to relax </h1>
+                <p>
+                    We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.
+                </p>
+            </div>
+            <div class = "column2">
+            <img src="http://brothert.net/dryoar/images/salmon-interest.jpg" alt="paragraph picture" height="315" width="420" >
+            </div>
+        </section>
+
+
+        <section id="section2">
+            <div class = "column1">
+            <img src="http://brothert.net/dryoar/images/littlecolorado.jpg" alt="other paragaph picture" height="315" width="420">
+            </div>
+            <div id = "column2">
+            <h1> We Run Whitewater for the Rush </h1>
+            <p>
+                That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.
+            </p>
+        </div>
+        </section>
+
+
+        <section id="section3">
+            <h1> Come with Us  </h1>
+            <p>
+                We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!
+            </p>
+        </section>
+
+
+        <footer id="footer1">
+            <p>&copy; 2016 Dry Oar || Maggie Klinke </p>
+            <a href="https://facebook.com"> <img src="facebook.png" alt="facebook"></a>
+            <a href="https://instagram.com"> <img src="instagram.png" alt="instagram"></a>
+            <a href="https://www.youtube.com"> <img src="youtube.png" alt="youtube"></a>
+        </footer>
+
+    </div>
 </body>
+
 </html>
