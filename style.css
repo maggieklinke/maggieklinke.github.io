@@ -5,6 +5,39 @@ nav {
     font-size: 1.12em;
 }
 
+#riversrivers {
+    line-height: 50px;
+}
+
+#nestled {
+    padding-top: 80px;
+}
+
+#grand {
+    padding-top: 80px;
+}
+
+#pic1 {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#pic2 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+#nestled,
+#forget,
+#grand,
+#class {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
 #logo {
     float: left;
     margin-left: 20px;
